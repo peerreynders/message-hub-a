@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["esnext","dom"]
+  },
+  "include": ["src"],
+  "exclude": ["./src/worker"],
+  "references": [
+    {"path": "./src/worker"}
+  ]
+}
