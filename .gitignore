@@ -2,8 +2,8 @@
 public/*
 !public/vite.svg
 !public/index.css
-worker/worker/*
-!worker/worker/.gitkeep
+worker/*
+!worker/.gitkeep
 
 # Logs
 logs

@@ -2,6 +2,7 @@
 Web Worker experiment
 
 [Notes are reverse (i.e. Stack/FIFO) order]
+- [`message-hub`](./src/lib/message-hub.ts) first pass.
 - Absolute minimal setup with working web worker ([Structuring a TypeScript project with workers](https://stackoverflow.com/questions/56356655/structuring-a-typescript-project-with-workers); [typescript-worker-example](https://github.com/jakearchibald/typescript-worker-example))
 ---
 

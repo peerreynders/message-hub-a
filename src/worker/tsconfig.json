@@ -2,8 +2,10 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "noEmit": false,
-    "outDir": "../../worker/worker",
+    "rootDir": "..",
+    "outDir": "../../worker",
     "lib": ["esnext","webworker"],
     "isolatedModules": false
-  }
+  },
+  "include": [".","../lib"],
 }
